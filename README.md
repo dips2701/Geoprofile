@@ -1,8 +1,22 @@
-# React + Vite
+# GeoProfile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GeoProfile is a web application designed for managing and displaying user profiles based on their geographic locations. It allows users to view, search, and filter profiles, while providing an admin panel to manage profile details. The project is designed to be scalable and modular, making it easy to add new features in the future.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React, TailwindCSS
+- **Local Hosting**: Vite (for fast local development)
+
+#Future scope
+UI Enhancements: Improve the design and user experience with a more sophisticated and modern interface.
+Database Integration: Connect the project to a real-time database like Firebase or MongoDB for persistent storage of profiles.
+Admin Authentication & Authorization: Implement a secure login system for the admin panel to allow authorized users to manage profiles.
+Real-Time Updates: Add real-time updates to reflect profile changes immediately without needing a page refresh.
+
+## Installation and Setup
+
+To run the GeoProfile project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/GeoProfile.git
